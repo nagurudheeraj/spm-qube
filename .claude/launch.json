@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "qube-dev", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 3000 },
+    { "name": "qube-prod-preview", "runtimeExecutable": "npx", "runtimeArgs": ["next", "start", "-p", "3100"], "port": 3100 }
+  ]
+}
